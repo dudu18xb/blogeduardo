@@ -7,16 +7,16 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/responsivo.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- BOOTSTRAP-->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> <!-- BOOTSTRAP-->
         <!-- plugins -->
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/demo.css">
         <link rel="stylesheet" type="text/css" href="css/component.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script> <!-- BOOTSTRAP -->
-        <!-- plugins -->
-        <script src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+
     </head>
     <body class="home-page">
         <div id="container">

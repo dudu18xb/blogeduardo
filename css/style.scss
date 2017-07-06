@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto';
 
 $claro: #ccc;
+$branco: #fff;
 $escuro: #333;
 $red: #F00;
 $clarinho: #f1f1f1;
@@ -24,9 +25,8 @@ img {
     max-width: 100%;
 }
 #container {
-    width: 1350px;
+    width: 1349px;
     margin: 0px auto;
-    /*background: #ffffff;*/
     display: table;
     margin-bottom: 15px;
     margin-top: -15px;

@@ -20,9 +20,8 @@ img {
   max-width: 100%; }
 
 #container {
-  width: 1350px;
+  width: 1349px;
   margin: 0px auto;
-  /*background: #ffffff;*/
   display: table;
   margin-bottom: 15px;
   margin-top: -15px; }
