@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/responsivo.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- BOOTSTRAP-->
+        <link rel="stylesheet" type="text/css" href="css/animate.css"> <!-- BOOTSTRAP-->
         <!-- plugins -->
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/demo.css">
@@ -15,21 +16,30 @@
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
+
+        <script>
+            new WOW().init();
+
+            function mostraMenu() {
+                $("nav").toggle();
+            }
+        </script>
 
     </head>
     <body class="home-page">
-        <div id="container">
+        <div class="container">
             <div class="menu-descktop"> 
                 <div class="header">
-                    <div class="logo">
+                    <div class="logo wow fadeInLeft">
                         <a href="index.php">
                             <img class="imglogo" src="images/logo.png">
                         </a>
                     </div>
                 </div>
                 <section class="color-1 topomenu">
-                    <nav class="menu cl-effect-1">
+                    <nav class="menu cl-effect-1 wow fadeInRight">
                         <ul>
                             <li><a href="index.php">HOME</a></li>
                             <li><a href="index.php">QUEM SOMOS</a></li>
@@ -47,12 +57,12 @@
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Damiana Cruz - Fotografias</span>
+                            <span class="sr-only">Eduardo Rocha</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand logo-responsivo" href="#"><img src="images/logo.png"></a>
+                        <a class="navbar-brand logo-responsivo wow fadeInDown" href="#"><img src="images/logo.png"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse iconefonte" id="menu">
                         <ul class="nav navbar-nav">
