@@ -1,0 +1,90 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat|Roboto";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+/*para definir tudo como padrao e o (*) serve para tudo o que vc for colocar na tela*/
+header {
+  float: left;
+  padding: 0px; }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  font-size: 62.5%; }
+
+img {
+  max-width: 100%; }
+
+#container {
+  width: 1350px;
+  margin: 0px auto;
+  /*background: #ffffff;*/
+  display: table;
+  margin-bottom: 15px;
+  margin-top: -15px; }
+
+header {
+  width: 100%;
+  float: left; }
+
+.menu ul {
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  list-style: none; }
+
+.menu ul li {
+  display: inline; }
+
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+  padding: 0px;
+  float: left;
+  font-size: 1.09em;
+  margin-top: 0px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.4s ease;
+  font-family: "Myriad Pro Regular"; }
+
+.menu ul li a:hover {
+  color: #0c0482;
+  text-decoration: none; }
+
+.logo {
+  width: 26%;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px; }
+
+.menu nav {
+  float: right; }
+
+img {
+  width: 100%; }
+
+.home-page section.topomenu {
+  padding: 5em 0em; }
+
+.home-page .color-1 {
+  background: #fff; }
+
+/*desabilitando o menu responsivo na tela de descktop*/
+.menu-boostrap-responsivo {
+  display: none; }
+
+.logo-responsivo img {
+  width: 100%;
+  margin-top: -10px; }
+
+.logo-responsivo {
+  width: 65%;
+  margin: 0px 0px 0px 0px; }
+
+/*# sourceMappingURL=style.css.map */
