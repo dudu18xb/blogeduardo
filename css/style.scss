@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto';
 
 $claro: #ccc;
+$preto: #000;
 $branco: #fff;
 $escuro: #333;
 $red: #F00;
@@ -93,4 +94,11 @@ img {
 .logo-responsivo {
     width: 65%;
     margin: 0px 0px 0px 0px;
+}
+.portifolio-row {
+    padding: 10px 40px 10px 40px;
+}
+.portifolio-row h1 {
+    text-align: center;
+    color: $preto;
 }

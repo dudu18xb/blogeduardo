@@ -87,4 +87,11 @@ img {
   width: 65%;
   margin: 0px 0px 0px 0px; }
 
+.portifolio-row {
+  padding: 10px 40px 10px 40px; }
+
+.portifolio-row h1 {
+  text-align: center;
+  color: #000; }
+
 /*# sourceMappingURL=style.css.map */
