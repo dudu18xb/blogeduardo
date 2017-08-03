@@ -13,9 +13,13 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css">
         <link rel="stylesheet" type="text/css" href="css/component.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/component1.css">
+        <link rel="stylesheet" type="text/css" href="css/default1.css">
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom1.js"></script>
+        <script type="text/javascript" src="js/toucheffects.js"></script>
         <script type="text/javascript" src="js/portifolio.js"></script>
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
