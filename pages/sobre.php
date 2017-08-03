@@ -8,8 +8,8 @@
     <div class="container quemsou">
         <legend><h1 class="wow fadeInLeft"><i class="fa fa-users" aria-hidden="true"></i> Quem Sou</h1></legend>
 
-        <div class="row sobrenos-responsivo">
-            <div class="col-lg-8 responsivo-oeste wow fadeInLeft">
+        <div class="row">
+            <div class="col-lg-8 wow fadeInLeft">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <div class="panel-body">
@@ -36,3 +36,4 @@
         </fieldset>
         </form>
     </div>
+</div>

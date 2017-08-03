@@ -49,9 +49,10 @@
                         <ul>
                             <li><a href="index.php">HOME</a></li>
                             <li><a href="sobre">QUEM SOU</a></li>
-                            <li><a href="index.php">PORTIFOLIOS</a>
+                            <li><a href="#">PORTIFOLIO</a>
                                 <ul class="submenu-descktop">
-                                    <li><a href="index.php">PROJETOS</a>
+                                    <li><a href="projetos">PROJETOS</a>
+                                    <li><a href="index.php">FOTOS</a>
                                     <li><a href="index.php">VIDEOS</a>
                                 </ul>
                             </li>
@@ -142,7 +143,7 @@
     </main>
     <!-- RODAPE -->
     <footer class="backgraund-rodape">
-        <div class="container menu-rodape">
+        <div class="container menu-rodape wow fadeInLeft">
             <nav>
                 <ul>
                     <li><a href="index.php">HOME</a></li>
