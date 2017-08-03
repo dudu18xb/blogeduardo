@@ -84,7 +84,7 @@
         </div>
     </div>
 
-    <main>
+    <main class="backgraund-main">
         <?php
         //print_r( $_GET );
 
@@ -113,8 +113,18 @@
         ?>
     </main>
     <!-- RODAPE -->
-    <footer>
-
+    <footer class="backgraund-rodape">
+        <div class="container menu-rodape">
+            <nav>
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="index.php">QUEM SOMOS</a></li>
+                    <li><a href="index.php">FOTOS</a></li>
+                    <li><a href="index.php">JOGOS</a></li>
+                    <li><a href="index.php">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 
 </body>

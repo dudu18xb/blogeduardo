@@ -9,6 +9,8 @@ $clarinho: #f1f1f1;
 $texto: Montserrat, Verdana, Tahoma;
 $titulo: Roboto, Tahoma;
 $corpadraoescuro: #0c0482;
+$fundoportifolio: #ececec;
+$azulmenu: #0c0482;
 
 * { margin: 0px; padding: 0px; text-decoration: none; box-sizing: border-box;} /*para definir tudo como padrao e o (*) serve para tudo o que vc for colocar na tela*/
 header{
@@ -105,4 +107,21 @@ img {
 .services-row h1 {
     text-align: center;
     color: $preto;
+}
+.backgraund-rodape {
+    background: $preto;
+}
+backgraund-main {
+    background: $fundoportifolio;
+}
+ul {
+    list-style-type: none;
+}
+.menu-rodape nav a {
+    font-size: 1.2em;
+    margin: 6px 25px;
+    &:hover{
+        text-decoration: none;
+        color: $azulmenu;
+    }
 }

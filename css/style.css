@@ -98,4 +98,20 @@ img {
   text-align: center;
   color: #000; }
 
+.backgraund-rodape {
+  background: #000; }
+
+backgraund-main {
+  background: #ececec; }
+
+ul {
+  list-style-type: none; }
+
+.menu-rodape nav a {
+  font-size: 1.2em;
+  margin: 6px 25px; }
+  .menu-rodape nav a:hover {
+    text-decoration: none;
+    color: #0c0482; }
+
 /*# sourceMappingURL=style.css.map */
