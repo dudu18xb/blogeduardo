@@ -170,3 +170,12 @@ nav ul li:hover > ul {
 .topomenu ul li a:hover {
     border-radius: 7px;
 }
+.breadcrumb {
+    background-color: $preto !important;
+    & li a {
+        color: #0043ff;
+    } 
+}
+.quemsou h1 {
+    color: $preto
+}

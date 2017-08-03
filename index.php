@@ -48,7 +48,7 @@
                     <nav class="menu cl-effect-1 wow fadeInRight">
                         <ul>
                             <li><a href="index.php">HOME</a></li>
-                            <li><a href="index.php">QUEM SOU</a></li>
+                            <li><a href="sobre">QUEM SOU</a></li>
                             <li><a href="index.php">PORTIFOLIOS</a>
                                 <ul class="submenu-descktop">
                                     <li><a href="index.php">PROJETOS</a>

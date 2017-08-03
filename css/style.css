@@ -156,4 +156,12 @@ nav ul li:hover > ul {
 .topomenu ul li a:hover {
   border-radius: 7px; }
 
+.breadcrumb {
+  background-color: #000 !important; }
+  .breadcrumb li a {
+    color: #0043ff; }
+
+.quemsou h1 {
+  color: #000; }
+
 /*# sourceMappingURL=style.css.map */
