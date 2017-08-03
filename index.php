@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/component1.css">
         <link rel="stylesheet" type="text/css" href="css/default1.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -77,7 +78,30 @@
                         <ul class="nav navbar-nav">
                             <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>HOME</a></li>
                             <li><a href="?pg=orcamento"><i class="fa fa-credit-card" aria-hidden="true"></i>SOLICITE ORÇAMENTO</a></li>
-                            <li><a href="?pg=sobrenos"><i class="fa fa-users" aria-hidden="true"></i>SOBRE NÓS</a></li>
+                            <li><a href="?pg=sobrenos"><i class="fa fa-users" aria-hidden="true"></i>SOBRE NÓS</a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-list" aria-hidden="true"></i>CATEGORIA  <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                     <li><a href='#'>TESTE</a></li>
+                                    <?php
+                                    /*
+                                    //$sql = "select * from categoria order by nome";
+                                    $sql = "select * from categoria where id <> '11' order by nome";
+
+                                    $consulta = $con->prepare($sql);
+                                    // execute o sql
+                                    $consulta->execute();
+                                    while ($dados = $consulta->fetch(PDO::FETCH_OBJ)) {
+                                        // separa os dados
+                                        $id = $dados->id;
+                                        $nome = $dados->nome;
+                                        echo "<li><a href='?pg=categoria&id=$id'>$nome</a></li>";
+                                    }
+                                    */?>
+                                   
+                                </ul>
+                            </li>
+                            </li>
                             <li><a href="?pg=buscadefotos"><i class="fa fa-search" aria-hidden="true"></i>BUSCAR FOTOS</a></li>
                             <li><a href="?pg=contato"><i class="fa fa-envelope-o" aria-hidden="true"></i>CONTATO</a></li>
                         </ul>
