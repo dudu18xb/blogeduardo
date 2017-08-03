@@ -125,3 +125,48 @@ ul {
         color: $azulmenu;
     }
 }
+
+/*SOB MENUS*/
+nav ul ul {
+    display: none;
+    z-index: 9999;
+}
+li:hover ul, .menu li.over ul{display:block;}
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    width: 134%;
+    float: left;
+    top: 92%;
+    left: -21%;
+    background: #ffffff;
+    text-align: center;
+
+}
+.topomenu nav ul li:hover > ul li {
+    width: 100%;
+
+}
+.topomenu li ul {
+    position:absolute;
+    display:none;
+}
+.topomenu ul > li > ul > li {
+    width: 100%;
+}
+
+.topomenu ul > li > ul > li > a:hover {
+    width: 100%;
+}
+.topomenu ul > li > ul > li > a {
+    text-align: center;
+    width: 100%;
+
+}
+.topomenu ul li {
+    position: relative;
+    float: left;
+}
+.topomenu ul li a:hover {
+    border-radius: 7px;
+}
