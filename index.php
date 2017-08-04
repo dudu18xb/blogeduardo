@@ -16,10 +16,12 @@
         <link rel="stylesheet" type="text/css" href="css/component1.css">
         <link rel="stylesheet" type="text/css" href="css/default1.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/youmax.min.css">
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
         <script type="text/javascript" src="js/modernizr.custom1.js"></script>
+        <script type="text/javascript" src="js/youmax.min.js"></script>
         <script type="text/javascript" src="js/toucheffects.js"></script>
         <script type="text/javascript" src="js/portifolio.js"></script>
         <script type="text/javascript" src="js/wow.min.js"></script>
@@ -32,7 +34,6 @@
                 $("nav").toggle();
             }
         </script>
-
     </head>
     <body class="home-page">
         <div class="container">
@@ -53,7 +54,7 @@
                                 <ul class="submenu-descktop">
                                     <li><a href="projetos">PROJETOS</a>
                                     <li><a href="index.php">FOTOS</a>
-                                    <li><a href="index.php">VIDEOS</a>
+                                    <li><a href="videos">VIDEOS</a>
                                 </ul>
                             </li>
                             <li><a href="index.php">CONTATO</a></li>

@@ -5,7 +5,7 @@
         </li>
         <li>Sobre o Eduardo Rocha</li>
     </ul>
-    <div class="container quemsou">
+    <div class="container titulopadrao">
         <legend><h1 class="wow fadeInLeft"><i class="fa fa-users" aria-hidden="true"></i> Quem Sou</h1></legend>
 
         <div class="row">
