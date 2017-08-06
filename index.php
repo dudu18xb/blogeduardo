@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!-- para nao dar zoom -->
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/responsivo.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- BOOTSTRAP-->
         <link rel="stylesheet" type="text/css" href="css/animate.css"> <!-- BOOTSTRAP-->
         <!-- plugins -->
@@ -19,11 +20,12 @@
         <link rel="stylesheet" type="text/css" href="css/youmax.min.css">
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/portifolio.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
         <script type="text/javascript" src="js/modernizr.custom1.js"></script>
         <script type="text/javascript" src="js/youmax.min.js"></script>
-        <script type="text/javascript" src="js/toucheffects.js"></script>
-        <script type="text/javascript" src="js/portifolio.js"></script>
+        <script type="text/javascript" src="js/toucheffects.js"></script>   
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
 
@@ -53,7 +55,7 @@
                             <li><a href="#">PORTIFOLIO</a>
                                 <ul class="submenu-descktop">
                                     <li><a href="projetos">PROJETOS</a>
-                                    <li><a href="index.php">FOTOS</a>
+                                    <li><a href="fotos">FOTOS</a>
                                     <li><a href="videos">VIDEOS</a>
                                 </ul>
                             </li>
