@@ -14,7 +14,8 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: #fff;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background: #fff !important; }
 
 img {
   max-width: 100%; }
@@ -229,5 +230,17 @@ figure:hover + span {
 .hover08 figure:hover img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0); }
+
+.grid figure img {
+  border: 2px solid #000; }
+
+.services-row-page h1 {
+  text-align: left;
+  color: #000; }
+
+.yl-header {
+  background-image: url(../images/capayoutube.png);
+  background-position: center;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

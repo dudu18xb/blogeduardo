@@ -80,34 +80,18 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse iconefonte" id="menu">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>HOME</a></li>
-                            <li><a href="?pg=orcamento"><i class="fa fa-credit-card" aria-hidden="true"></i>SOLICITE ORÇAMENTO</a></li>
-                            <li><a href="?pg=sobrenos"><i class="fa fa-users" aria-hidden="true"></i>SOBRE NÓS</a>
+                            <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
+                            <li><a href="sobre"><i class="fa fa-user" aria-hidden="true"></i> QUEM SOU</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-list" aria-hidden="true"></i>CATEGORIA  <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-list" aria-hidden="true"></i> PORTIFÓLIO  <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                     <li><a href='#'>TESTE</a></li>
-                                    <?php
-                                    /*
-                                    //$sql = "select * from categoria order by nome";
-                                    $sql = "select * from categoria where id <> '11' order by nome";
-
-                                    $consulta = $con->prepare($sql);
-                                    // execute o sql
-                                    $consulta->execute();
-                                    while ($dados = $consulta->fetch(PDO::FETCH_OBJ)) {
-                                        // separa os dados
-                                        $id = $dados->id;
-                                        $nome = $dados->nome;
-                                        echo "<li><a href='?pg=categoria&id=$id'>$nome</a></li>";
-                                    }
-                                    */?>
-                                   
+                                    <li><a href='projetos'> PROJETOS</a></li>
+                                    <li><a href='fotos'> FOTOS</a></li>
+                                    <li><a href='videos'> VIDEOS</a></li>
                                 </ul>
                             </li>
                             </li>
-                            <li><a href="?pg=buscadefotos"><i class="fa fa-search" aria-hidden="true"></i>BUSCAR FOTOS</a></li>
-                            <li><a href="?pg=contato"><i class="fa fa-envelope-o" aria-hidden="true"></i>CONTATO</a></li>
+                            <li><a href="?pg=contato"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTATO</a></li>
                         </ul>
 
                     </div><!--/.nav-collapse -->

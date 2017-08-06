@@ -36,83 +36,49 @@
     <!-- final do carrousel -->
 </div>
 <div class="container">
-    <div class="row portifolio-row">
-        <h1 class="wow fadeInRight">Portifólios</h1>
-        <ul id="sort-me">
-            <li class="portifolio" data-title="Damiana Cruz" data-link="images/print01.png">
-                <img src="images/print01.png"/>
+    <div class="row services-row">
+        <h1 class="wow fadeInRight">Portifoio</h1>
+                <ul class="grid cs-style-5">
+            <li>
+                <figure class="wow fadeInLeft">
+                    <img src="images/damiana.jpg" alt="img04">
+                    <figcaption>
+                        <h3>Damiana Cruz - Fotografias</h3>
+                        <span>Eduardo</span>
+                        <a href="http://www.damianacruz.com.br">Visualizar</a>
+                    </figcaption>
+                </figure>
             </li>
-            <li class="portifolio" data-title="Damiana Cruz" data-link="images/print01.png">
-                <img src="images/print01.png"/>
+            <li>
+                <figure class="wow fadeInRight">
+                    <img src="images/fazenda.jpg" alt="Fazenda Renascer">
+                    <figcaption>
+                        <h3>Fazenda Renascer - ADEJOC</h3>
+                        <span>Eduardo</span>
+                        <a href="#">Visualizar</a>
+                    </figcaption>
+                </figure>
             </li>
-            <li class="portifolio" data-title="Damiana Cruz" data-link="images/print01.png">
-                <img src="images/print01.png"/>
+            <li>
+                <figure class="wow fadeInLeft">
+                    <img src="images/whitehouse.jpg" alt="White House">
+                    <figcaption>
+                        <h3>Assosiação White House de Futebol</h3>
+                        <span>Eduardo</span>
+                        <a href="#">Visualizar</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure class="wow fadeInRight">
+                    <img src="images/whitehouse.jpg" alt="White House">
+                    <figcaption>
+                        <h3>Assosiação White House de Futebol</h3>
+                        <span>Eduardo</span>
+                        <a href="#">Visualizar</a>
+                    </figcaption>
+                </figure>
             </li>
         </ul>
-    </div>
-    <div class="row services-row">
-        <h1 class="wow fadeInRight">Serviços</h1>
-        			<ul class="grid cs-style-3">
-				<li>
-					<figure>
-						<img src="images/4.png" alt="img04">
-						<figcaption>
-							<h3>Settings</h3>
-							<span>Jacob Cummings</span>
-							<a href="http://dribbble.com/shots/1116685-Settings">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="images/1.png" alt="img01">
-						<figcaption>
-							<h3>Camera</h3>
-							<span>Jacob Cummings</span>
-							<a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="images/2.png" alt="img02">
-						<figcaption>
-							<h3>Music</h3>
-							<span>Jacob Cummings</span>
-							<a href="http://dribbble.com/shots/1115960-Music">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="images/5.png" alt="img05">
-						<figcaption>
-							<h3>Safari</h3>
-							<span>Jacob Cummings</span>
-							<a href="http://dribbble.com/shots/1116775-Safari">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="images/3.png" alt="img03">
-						<figcaption>
-							<h3>Phone</h3>
-							<span>Jacob Cummings</span>
-							<a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<img src="images/6.png" alt="img06">
-						<figcaption>
-							<h3>Game Center</h3>
-							<span>Jacob Cummings</span>
-							<a href="http://dribbble.com/shots/1118904-Game-Center">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-			</ul>
     </div>
 </div>
